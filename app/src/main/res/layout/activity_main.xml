@@ -18,6 +18,7 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Username"
+        android:inputType="text"
         android:text="Username"
         app:layout_constraintBottom_toTopOf="@+id/LoginPassword"
         app:layout_constraintEnd_toEndOf="parent"
