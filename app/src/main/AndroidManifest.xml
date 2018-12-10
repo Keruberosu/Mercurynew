@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Chat" />
-        <activity android:name=".ProfileView"></activity>
+        <activity android:name=".ProfileView" />
+        <activity android:name=".Browse"></activity>
     </application>
 
 </manifest>
