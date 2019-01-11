@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aviator.mercury_new">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +23,12 @@
         </activity>
         <activity android:name=".Chat" />
         <activity android:name=".ProfileView" />
-        <activity android:name=".Browse"></activity>
+        <activity android:name=".Browse" />
+        <activity android:name=".Sign_UpINFO" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".Settings"></activity>
     </application>
 
 </manifest>
