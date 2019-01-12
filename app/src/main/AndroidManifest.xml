@@ -25,7 +25,8 @@
         <activity android:name=".ProfileView" />
         <activity android:name=".Browse" />
         <activity android:name=".Sign_UpINFO" />
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Settings" />
+        <activity android:name=".Post"></activity>
     </application>
 
 </manifest>
